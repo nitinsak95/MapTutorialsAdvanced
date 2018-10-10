@@ -12,6 +12,8 @@
 		A43941312092EB1F004A7E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A439412F2092EB1F004A7E99 /* Main.storyboard */; };
 		A43941332092EB1F004A7E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A43941322092EB1F004A7E99 /* Assets.xcassets */; };
 		A43941362092EB1F004A7E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43941342092EB1F004A7E99 /* LaunchScreen.storyboard */; };
+		A439413E2092F2DE004A7E99 /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439413D2092F2DE004A7E99 /* PopUpViewController.swift */; };
+		A43941402092FBDB004A7E99 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A439413F2092FBDB004A7E99 /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A43941322092EB1F004A7E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A43941352092EB1F004A7E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A43941372092EB1F004A7E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A439413D2092F2DE004A7E99 /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		A439413F2092FBDB004A7E99 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A43941322092EB1F004A7E99 /* Assets.xcassets */,
 				A43941342092EB1F004A7E99 /* LaunchScreen.storyboard */,
 				A43941372092EB1F004A7E99 /* Info.plist */,
+				A439413D2092F2DE004A7E99 /* PopUpViewController.swift */,
+				A439413F2092FBDB004A7E99 /* SearchViewController.swift */,
 			);
 			path = MapTutorialsAdvanced;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A439412E2092EB1F004A7E99 /* ViewController.swift in Sources */,
+				A439413E2092F2DE004A7E99 /* PopUpViewController.swift in Sources */,
+				A43941402092FBDB004A7E99 /* SearchViewController.swift in Sources */,
 				A439412C2092EB1F004A7E99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
